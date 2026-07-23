@@ -1,0 +1,14 @@
+
+@import "tailwindcss";
+
+#two-div{
+  background-color: rgba(70, 15, 1, 0.918);
+}
+
+form input{
+  border-bottom: 3px solid black;
+  margin: 15px;
+  padding: 10px;
+
+}
+
