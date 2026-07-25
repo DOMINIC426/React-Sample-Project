@@ -1,0 +1,56 @@
+
+import {} from 'react-icons'
+import { User2Icon } from 'lucide-react'
+export default function Profile(){
+    return(
+        <div className='bg-white p-4 w-2/4  rounded-2xl flex flex-col justify-center items-center gap-3 h-fit'>
+          
+       {/* image section */}
+       <div className='bg-white'>
+        <section className='bg-white   p-4 flex flex-col justify-center items-center'>
+            <h2 className='font-bold text-2xl mb-2'>Profile</h2>
+            <User2Icon className='w-20 h-14 border-2 rounded-[50%] p-0 bg-amber-50' />
+            <h2 className='text-xl font-bold'>Dominic Nazareth</h2>
+        </section>
+
+        {/* followers informations */}
+
+          <div className='flex justify-between gap-3 bg-white p-4 w-full'>
+
+    <section className='flex flex-col gap-1'>
+        <h1>1,0043</h1>
+        <p>Follwers</p>
+    </section>
+    <hr className='bg-amber-300'/>
+
+    <section>
+        <h1>1,0043</h1>
+        <p>Following</p>
+    </section>
+  <hr />
+    <section>
+        <h1>12</h1>
+        <p>Events</p>
+    </section>
+
+   <hr />
+          </div>
+{/* end of followers informations */}
+       </div>
+
+       <p className='bg-white p-4 w-full flex flex-col gap-2 items-center justify-center'>
+        <h2>About me</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugit vitae m <br />
+            inus officiis ex iste consequuntur praesentium itaque perspiciatis! <br />
+             Ullam quos, perspiciatis eligendi laborum deserunt harum autem <br />
+             repudiandae aspernatur alias?
+        </p>
+       </p>
+
+       {/* end of main div of profile */}
+
+
+        </div>
+    )
+}
