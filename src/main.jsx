@@ -6,10 +6,9 @@ import Profile from './Profile'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <main className="flex flex-col items-center justify-center h-screen bg-gray-200">
-      
+    <main className="flex flex-col items-center justify-center h-screen bg-gray-200">    
 <Profile/>
-    
+      
     </main>
   </StrictMode>
 )

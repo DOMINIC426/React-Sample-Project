@@ -1,7 +1,11 @@
 
 import {} from 'react-icons'
 import { User2Icon } from 'lucide-react'
+<<<<<<< HEAD
 export default function Profile(){
+=======
+export default function Profile(props){
+>>>>>>> baba
     return(
         <div className='bg-white p-4 w-2/4  rounded-2xl flex flex-col justify-center items-center gap-3 h-fit'>
           
@@ -10,7 +14,11 @@ export default function Profile(){
         <section className='bg-white   p-4 flex flex-col justify-center items-center'>
             <h2 className='font-bold text-2xl mb-2'>Profile</h2>
             <User2Icon className='w-20 h-14 border-2 rounded-[50%] p-0 bg-amber-50' />
+<<<<<<< HEAD
             <h2 className='text-xl font-bold'>Dominic Nazareth</h2>
+=======
+            <h2 className='text-xl font-bold'>{props.name}</h2>
+>>>>>>> baba
         </section>
 
         {/* followers informations */}
@@ -18,7 +26,11 @@ export default function Profile(){
           <div className='flex justify-between gap-3 bg-white p-4 w-full'>
 
     <section className='flex flex-col gap-1'>
+<<<<<<< HEAD
         <h1>1,0043</h1>
+=======
+        <h1>{props.followers}</h1>
+>>>>>>> baba
         <p>Follwers</p>
     </section>
     <hr className='bg-amber-300'/>
@@ -38,6 +50,7 @@ export default function Profile(){
 {/* end of followers informations */}
        </div>
 
+<<<<<<< HEAD
        <p className='bg-white p-4 w-full flex flex-col gap-2 items-center justify-center'>
         <h2>About me</h2>
         <p>
@@ -51,6 +64,9 @@ export default function Profile(){
        {/* end of main div of profile */}
 
 
+=======
+    
+>>>>>>> baba
         </div>
     )
 }
